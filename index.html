@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiki</title>
+    <!---FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+   <!--ICONS-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!---Email.js-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("service_jj01ppk");
+        })();
+        </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <!----- HOME ---->
+    <div class="home">
+        <div class="nav">
+            <ul>
+                <li><a href="#center">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="center" id="center">
+            
+            <h1>FRONT END <br> DEVELOPER.</h1>
+            <h4>Creative <span id="typed-text"></span></h4>
+            <div class="hire-btn">
+              <button class="hire">Hire Me</button>
+            </div>
+         <section class="shapes">
+            <div class="shape1">
+                <div id="square"></div>
+                <div id="diamond"></div>
+                <div id="diamond"></div>
+                <div id="diamond"></div>
+                <div id="diamond"></div>
+                <div id="diamond"></div>
+                <div id="diamond"></div>
+                <div id="diamond"></div>
+                <div class="zig-zag"></div>
+            </div>
+            <div class="shape2">
+                <div class="pattern pattern2"></div>
+                <div class="pattern pattern1"></div>
+            </div>
+        </section>
+        </div>
+    </div>
+<!----- ABOUT ----->
+    <div class="about" id="about">
+        <div class="text-abt">
+            <div class="title">
+                <div class="line1"></div>
+                <h2>About</h2>
+            </div>
+            <h4>I am <span>Freelancer</span></h4>
+            <p>Hi! My name is MARY KINYANJUI. I am a Web Developer.<br> Passionate Front-End Developer crafting captivating <br>websites, proficient in HTML, CSS, and 
+                JavaScript, <br>driven to deliver exceptional digital experiences.</p>
+            <div class="abt-btn">
+                <button class="hire"><a href="#contact">Hire Me</a></button>
+                <button class="button2" id="download-btn">Download CV</button>
+            </div>
+            <div class="contact">
+                <div class="phone contacts">
+                    <i class="uil uil-phone"></i>
+                    <h5>Phone</h5>
+                    <p>+254714435277</p>
+                </div>
+                <div class="email contacts">
+                    <i class="uil uil-envelope"></i>
+                    <h5>Email</h5>
+                    <p>kinyanjui816@gmail.com</p>
+                </div>
+            </div>
+        </div>     
+    </div>
+<!----- SERVICES ------>
+    <div class="services" id="services">
+        <div class="title">
+            <div class="line1"></div>
+            <h2>Services</h2>
+        </div>
+        <div class="services-list">
+            <div class="list1 list">
+                <div class="line2"></div>
+                <div class="top-txt">
+                    <i class="uil uil-desktop"></i>
+                    <div class="txt">
+                        <h5>01</h5>
+                        <h4>Web Design</h4>
+                        <p>Utilizing a variety of programming languages such as HTML, CSS, and 
+                            JavaScript to bring websites to life with interactivity and seamless functionality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="list2 list">
+                <div class="line2"></div>
+                <div class="top-txt">
+                   <i class="uil uil-code-branch"></i>
+                    <div class="txt">
+                        <h5>02</h5>
+                        <h4>Web Development</h4>
+                        <p>Employing diverse programming languages like HTML, CSS, JavaScript, and more to create dynamic and robust 
+                            web applications that cater to user needs and deliver exceptional online experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="list3 list">
+                <div class="line2"></div>
+                <div class="top-txt">
+                    <i class="uil uil-mobile-android"></i>
+                    <div class="txt">
+                        <h5>03</h5>
+                        <h4>Mobile Apps</h4>
+                        <p>Utilizing programming languages like Java, Swift, or React Native to craft 
+                            innovative and user-friendly mobile applications that run
+                             seamlessly on various platforms, offering engaging experiences on the go.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----- PROJECTS ------>
+   <div class="project" id="project">
+    <div class="title">
+        <div class="line1"></div>
+        <h2>Projects</h2>
+    </div>
+    <div class="container">
+        <div class="bg">
+            <div class="item item3">
+                <img src="./Images/Cinerana.png" alt="">
+            </div>
+                <div class="content">
+            <h2 class="name">Cinerana</h2>
+            <p class="des">Cinerana is a multi-page mock streaming site that dynamically <br>
+                displays details of both movies and TV shows with the use of the <br>TMDB API and Axios. 
+                This websites features filtering.</p>
+
+                <div class="btn">
+                    <a href="https://github.com/Manniskiki-bot/Cinerana-React-js" target="_blank" class="link">Code <i class="uil uil-github"></i></a>
+                    <a href="https://cinerana-movie.vercel.app/" target="_blank" class="link">See Demo <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+           
+        </div>
+           <div class="bg">
+            <div class="item item1">
+                <img src="/Images/Portfolio.png" alt="">
+            </div>
+                <div class="content">
+            <h2 class="name">Portfolio</h2>
+            <p class="des">This website is a functional E-portfolio I designed and built. 
+                The website features a completely responsive design, 
+                impressive animations, and was made using HTML, CSS and JavaScript best practises.</p>
+                <div class="btn">
+                    <a href="#" target="_blank" class="link">See Demo <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="bg">
+            <div class="item item2">
+                <img src="/Images/Spurt.png" alt="">
+            </div>
+                <div class="content">
+            <h2 class="name">Travel Spurt</h2>
+            <p class="des">Embark on unforgettable journeys with our travel company. Discover exotic destinations,
+                 immerse in diverse cultures, and create lifelong memories. Our expert team curates personalized 
+                 itineraries, taking care of every detail. Relax and enjoy as we bring your travel dreams to life. 
+                Join us for your next extraordinary adventure.</p>
+                <div class="btn">
+                    <a href="https://travel-spurt.netlify.app/" target="_blank" class="link">See Demo <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+            
+        </div>
+            
+        </div>
+</div>
+<!----CONTACT ---->
+    <section class="message" id="contact">
+        <div class="title">
+            <div class="line1"></div>
+            <h2>Contact Me</h2>
+        </div>
+        <div class="contact-form">
+            <form action="" id="myForm">
+                <input type="text" placeholder="Your Name" id="name" required> <br>
+                <input type="email" placeholder="Your Email" id="email" required> <br>
+                <textarea cols="30" rows="8" placeholder="Message" id="message" required></textarea> <br>
+                <button class="send" onclick="SendMail()">Send Message <i class="uil uil-message"></i></button>
+            </form>
+            <div class="text-side">
+                <div class="circle"></div>
+                <h1>Contact <br>  <span class="line3">Me</span></h1>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <a href="#" class="menu-icon"><i class="uil uil-list-ul"></i></a>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
